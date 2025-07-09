@@ -1,0 +1,25 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "no_superfluous_phpdoc_tags": false,
+        "simplified_null_return": true,
+        "array_indentation": true,
+        "new_with_parentheses": {
+            "anonymous_class": true,
+            "named_class": true
+        },
+        "align_multiline_comment": {
+            "comment_type": "phpdocs_like"
+        },
+        "concat_space": {
+            "spacing": "one"
+        },
+        "phpdoc_align": {
+            "align": "left"
+        },
+        "ordered_imports": {
+            "sort_algorithm": "length",
+            "imports_order": ["class", "function", "const"]
+        }
+    }
+}
