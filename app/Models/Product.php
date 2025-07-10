@@ -32,6 +32,8 @@ class Product extends Model
 
     public const PHOTO_PATH = 'products';
 
+    public const PHOTO_MAX_SIZE = 5000;
+
     public const ATTRIBUTE_LIMIT = [
         'name' => [
             'min' => 1,
